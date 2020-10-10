@@ -41,7 +41,7 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
-# run_analysis.R
+# Implementation steps
 The R script run_analysis.R does the following.
 
 1. Merges the training and the test sets to create one data set.
@@ -49,3 +49,5 @@ The R script run_analysis.R does the following.
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+The explanations for each function used in each step are written in the script.
